@@ -1,0 +1,20 @@
+{
+  "name": "mkhq",
+  "version": "1.0.0",
+  "description": "Metakeep server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karthicashokan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "9.1.4",
+    "@hapi/hapi": "20.2.1",
+    "@hapi/joi": "17.1.1",
+    "aws-jwt-verify": "^3.0.0",
+    "mysql": "^2.18.1",
+    "promise-mysql": "^5.2.0",
+    "uuid4": "^2.0.2"
+  }
+}
