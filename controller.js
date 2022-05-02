@@ -19,7 +19,7 @@ async function createApplication(request, h) {
     if (inValidArguments) {
         throw new Error('name and chain are required fields');
     }
-    if (!isAuthorized || true) {
+    if (!isAuthorized) {
         throw new Error('Unauthorized access');
     }
     const isChainSupported = supportedBlockchains.includes(chain.toUpperCase());
